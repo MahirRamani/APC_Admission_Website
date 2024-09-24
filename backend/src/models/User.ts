@@ -24,6 +24,5 @@ const User = db.define(
 // User.hasOne(Permission);
 // BloodGroup.hasOne(Student);
 
-console.log("User Table !");
 
 export default User;

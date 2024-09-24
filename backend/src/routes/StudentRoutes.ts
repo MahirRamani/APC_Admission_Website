@@ -7,7 +7,7 @@ const router = express.Router();
 import registerStudentProfile from "../controllers/StudentControllers";
 
 
-router.post("/register",(req: Request, res: Response) => {
+router.post("/form",(req: Request, res: Response) => {
 
     registerStudentProfile(req, res)
 

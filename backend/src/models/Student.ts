@@ -174,7 +174,6 @@ const Student = db.define(
 // Year.belongsTo(Student  );
 
 console.log(Student === Sequelize.Model);
-console.log("Student");
 
 
 export default Student;
